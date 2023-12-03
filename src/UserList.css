@@ -1,5 +1,3 @@
-Add this style to your CSS file or component
-
 /* Style for the entire table */
 table {
     width: 100%;
@@ -31,9 +29,4 @@ table {
     padding: 6px 12px;
     margin-right: 4px;
     cursor: pointer;
-  }
-  
-  /* Add any additional styling as needed */
-  
-
-  
+  }  

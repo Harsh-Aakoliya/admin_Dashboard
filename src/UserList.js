@@ -141,7 +141,6 @@ const UserList = () => {
                 type="checkbox"
                 onChange={handleSelectAll}
                 checked={selectAll}
-                // value={selectAll}
               />
             </th>
             <th>User ID</th>
