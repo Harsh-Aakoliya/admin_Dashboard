@@ -159,7 +159,8 @@ const UserList = () => {
             >
               <td>
                 <input
-                  type="checkbox"
+                  type="button"
+                  value={"Select/Deselect"}
                   onClick={() => handleRowSelection(user.id)}
                 />
               </td>
