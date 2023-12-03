@@ -1,0 +1,39 @@
+Add this style to your CSS file or component
+
+/* Style for the entire table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style for table header */
+  th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style for table cells */
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  /* Style for selected rows */
+  .selected {
+    background-color: lightgrey;
+  }
+  
+  /* Style for action buttons (Edit, Save, Cancel, Delete) */
+  button {
+    padding: 6px 12px;
+    margin-right: 4px;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styling as needed */
+  
+
+  
