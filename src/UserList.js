@@ -123,16 +123,18 @@ const UserList = () => {
 
   return (
     <div>
-      <input
-        type="text"
-        placeholder="Search..."
-        value={searchTerm}
-        onChange={e => {
-          setSearchTerm(e.target.value);
-          updateUrlWithSearchTerm(e.target.value);
-        }}
-      />
-
+      <div style={{ display: 'flex', justifyContent: 'space-between' }}>
+        <input
+          type="text"
+          placeholder="Search..."
+          value={searchTerm}
+          onChange={e => {
+            setSearchTerm(e.target.value);
+            updateUrlWithSearchTerm(e.target.value);
+          }}
+          />
+        <button onClick={deleteSelectedRows}>Delete Selected</button>
+        </div>
       <table>
         <thead>
           <tr>
@@ -247,7 +249,6 @@ const UserList = () => {
       </div>
 
       {/* Delete Selected Button */}
-      <button onClick={deleteSelectedRows}>Delete Selected</button>
     </div>
   );
 };
