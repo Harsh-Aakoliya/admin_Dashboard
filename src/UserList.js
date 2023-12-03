@@ -133,6 +133,7 @@ const UserList = () => {
             updateUrlWithSearchTerm(e.target.value);
           }}
           />
+        {/* Delete Selected Button */}
         <button onClick={deleteSelectedRows}>Delete Selected</button>
         </div>
       <table>
@@ -248,7 +249,6 @@ const UserList = () => {
         </button>
       </div>
 
-      {/* Delete Selected Button */}
     </div>
   );
 };
